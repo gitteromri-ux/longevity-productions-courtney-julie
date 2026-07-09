@@ -29,13 +29,15 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
 .script .cuek .cl{font-weight:700;font-size:.62rem;letter-spacing:.14em;opacity:.7;margin-top:.25rem}
 .script .cb{font-weight:500;font-size:1.02rem;line-height:1.4}
 .script .foot{display:flex;justify-content:space-between;font-weight:700;font-size:.62rem;letter-spacing:.13em;padding-top:2.2%}
-/* COVER (new 6/7) */
+/* COVER — real on-set photo */
 .slide.cover{display:flex;align-items:flex-end}
-.cover .coverbar{position:absolute;top:0;left:0;right:0;height:8px}
-.cover .coverin{padding:0 5.2% 6%;}
-.cover .ckick{font-weight:700;font-size:.9rem;letter-spacing:.24em;margin-bottom:1rem}
-.cover .ctitle{font-weight:900;font-size:4rem;line-height:.98;letter-spacing:-.02em;max-width:82%}
-.cover .csub{font-weight:500;font-size:1.15rem;margin-top:1.1rem;max-width:70%}
+.cover .coverimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.cover .coverscrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,9,15,.86) 0%,rgba(6,9,15,.62) 34%,rgba(6,9,15,.12) 62%,rgba(6,9,15,0) 100%),linear-gradient(0deg,rgba(6,9,15,.72) 0%,rgba(6,9,15,0) 46%)}
+.cover .coverbar{position:absolute;top:0;left:0;right:0;height:8px;z-index:2}
+.cover .coverin{position:relative;z-index:2;padding:0 5.2% 6.2%;}
+.cover .ckick{font-weight:700;font-size:.9rem;letter-spacing:.24em;margin-bottom:1rem;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+.cover .ctitle{font-weight:900;font-size:4rem;line-height:.98;letter-spacing:-.02em;max-width:74%;text-shadow:0 2px 24px rgba(0,0,0,.55)}
+.cover .csub{font-weight:500;font-size:1.15rem;margin-top:1.1rem;max-width:60%;text-shadow:0 1px 14px rgba(0,0,0,.5)}
 @media(max-width:820px){
  .script .stitle{font-size:1.5rem} .script .wc{font-size:2rem} .script .cb{font-size:.8rem}
  .script .cue{grid-template-columns:96px 1fr} .cover .ctitle{font-size:2.1rem}
@@ -68,12 +70,14 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
   <section class="slide img"><img src="slides/slide-23.png" alt="slide 23"></section>
   <section class="slide img"><img src="slides/slide-24.png" alt="slide 24"></section>
 
-  <section class="slide cover" style="background:#2E6FF2">
+  <section class="slide cover photo" style="background:#0b0f17">
+    <img class="coverimg" src="photos/julie_onset_1.jpg" alt="Julie Gibson Clark on set">
+    <div class="coverscrim"></div>
     <div class="coverbar" style="background:#F2C14E"></div>
     <div class="coverin">
       <div class="ckick" style="color:#F2C14E">MASTERCLASS FILM 01 / 07 · THE INTRODUCTION</div>
       <h1 class="ctitle" style="color:#FFFFFF">“How You Age Is a Choice”</h1>
-      <div class="csub" style="color:rgba(255,255,255,.72)">The introduction — why your healthspan is something you get to decide.</div>
+      <div class="csub" style="color:rgba(255,255,255,.82)">The introduction — why your healthspan is something you get to decide.</div>
     </div>
   </section>
 
@@ -122,7 +126,17 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
       </div>
     </div>
   </section>
-  <section class="slide img"><img src="slides/slide-27.png" alt="slide 27"></section>
+
+  <section class="slide cover photo" style="background:#0b0f17">
+    <img class="coverimg" src="photos/julie_onset_2.jpg" alt="Julie Gibson Clark on set">
+    <div class="coverscrim"></div>
+    <div class="coverbar" style="background:#08201F"></div>
+    <div class="coverin">
+      <div class="ckick" style="color:#08201F">MASTERCLASS FILM 02 / 07 · THE METHOD</div>
+      <h1 class="ctitle" style="color:#FFFFFF">“Make Healthy Habits Stick for Good”</h1>
+      <div class="csub" style="color:rgba(255,255,255,.82)">The clarity film — cut the noise and build habits that actually last.</div>
+    </div>
+  </section>
 
   <section class="slide script" style="background:#0E8B8B;color:#08201F">
     <div class="wrap">
@@ -170,12 +184,14 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
     </div>
   </section>
 
-  <section class="slide cover" style="background:#C81E78">
+  <section class="slide cover photo" style="background:#0b0f17">
+    <img class="coverimg" src="photos/julie_onset_1.jpg" alt="Julie Gibson Clark on set">
+    <div class="coverscrim"></div>
     <div class="coverbar" style="background:#F2C14E"></div>
     <div class="coverin">
       <div class="ckick" style="color:#F2C14E">MASTERCLASS FILM 03 / 07 · THE MYTH</div>
       <h1 class="ctitle" style="color:#FFFFFF">“You Don’t Need 150 Pills to Age Slower”</h1>
-      <div class="csub" style="color:rgba(255,255,255,.72)">The anti-extreme film — slowing aging doesn’t take a pharmacy.</div>
+      <div class="csub" style="color:rgba(255,255,255,.82)">The anti-extreme film — slowing aging doesn’t take a pharmacy.</div>
     </div>
   </section>
 
@@ -225,12 +241,14 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
     </div>
   </section>
 
-  <section class="slide cover" style="background:#F5A623">
+  <section class="slide cover photo" style="background:#0b0f17">
+    <img class="coverimg" src="photos/julie_onset_2.jpg" alt="Julie Gibson Clark on set">
+    <div class="coverscrim"></div>
     <div class="coverbar" style="background:#12294A"></div>
     <div class="coverin">
       <div class="ckick" style="color:#12294A">MASTERCLASS FILM 04 / 07 · THE EVIDENCE</div>
-      <h1 class="ctitle" style="color:#12294A">“Longevity Backed by Real Proof”</h1>
-      <div class="csub" style="color:rgba(18,41,74,.62)">The credibility film — evidence over hype, measured on a real body.</div>
+      <h1 class="ctitle" style="color:#FFFFFF">“Longevity Backed by Real Proof”</h1>
+      <div class="csub" style="color:rgba(255,255,255,.82)">The credibility film — evidence over hype, measured on a real body.</div>
     </div>
   </section>
 
@@ -279,7 +297,17 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
       </div>
     </div>
   </section>
-  <section class="slide img"><img src="slides/slide-33.png" alt="slide 33"></section>
+
+  <section class="slide cover photo" style="background:#0b0f17">
+    <img class="coverimg" src="photos/julie_onset_1.jpg" alt="Julie Gibson Clark on set">
+    <div class="coverscrim"></div>
+    <div class="coverbar" style="background:#F2C14E"></div>
+    <div class="coverin">
+      <div class="ckick" style="color:#F2C14E">MASTERCLASS FILM 05 / 07 · THE WHY</div>
+      <h1 class="ctitle" style="color:#FFFFFF">“Find Your Why to Live Longer”</h1>
+      <div class="csub" style="color:rgba(255,255,255,.82)">The emotional film — longevity is built on love and connection.</div>
+    </div>
+  </section>
 
   <section class="slide script" style="background:#189B54;color:#FFFFFF">
     <div class="wrap">
@@ -327,12 +355,14 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
     </div>
   </section>
 
-  <section class="slide cover" style="background:#12294A">
+  <section class="slide cover photo" style="background:#0b0f17">
+    <img class="coverimg" src="photos/julie_onset_2.jpg" alt="Julie Gibson Clark on set">
+    <div class="coverscrim"></div>
     <div class="coverbar" style="background:#F2C14E"></div>
     <div class="coverin">
       <div class="ckick" style="color:#F2C14E">MASTERCLASS FILM 06 / 07 · THE OWNERSHIP</div>
       <h1 class="ctitle" style="color:#FFFFFF">“Take Back Control of Your Health”</h1>
-      <div class="csub" style="color:rgba(255,255,255,.72)">The ownership film — you can’t change what you were never taught to see.</div>
+      <div class="csub" style="color:rgba(255,255,255,.82)">The ownership film — you can’t change what you were never taught to see.</div>
     </div>
   </section>
 
@@ -382,12 +412,14 @@ html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-fo
     </div>
   </section>
 
-  <section class="slide cover" style="background:#7A2E8E">
+  <section class="slide cover photo" style="background:#0b0f17">
+    <img class="coverimg" src="photos/julie_onset_1.jpg" alt="Julie Gibson Clark on set">
+    <div class="coverscrim"></div>
     <div class="coverbar" style="background:#F2C14E"></div>
     <div class="coverin">
       <div class="ckick" style="color:#F2C14E">MASTERCLASS FILM 07 / 07 · THE SECRET</div>
       <h1 class="ctitle" style="color:#FFFFFF">“The Secret to Living Better, Longer”</h1>
-      <div class="csub" style="color:rgba(255,255,255,.72)">The signature film — Julie reveals what really slows aging.</div>
+      <div class="csub" style="color:rgba(255,255,255,.82)">The signature film — Julie reveals what really slows aging.</div>
     </div>
   </section>
 
