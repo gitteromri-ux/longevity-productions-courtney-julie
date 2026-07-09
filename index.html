@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Longevity Life Academy — Julie Gibson Clark</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--w:1280px;}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0b0f17;font-family:'Inter',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.deck{display:flex;flex-direction:column;align-items:center;gap:28px;padding:28px 16px 72px}
+.slide{width:100%;max-width:var(--w);aspect-ratio:16/9;border-radius:14px;overflow:hidden;box-shadow:0 24px 60px -24px rgba(0,0,0,.6);position:relative}
+.slide.img{background:#000}
+.slide.img img{width:100%;height:100%;object-fit:contain;display:block}
+/* SCRIPT SLIDE */
+.slide.script{display:flex}
+.script .wrap{width:100%;padding:4.3% 5.2%;display:flex;flex-direction:column}
+.script .head{display:flex;justify-content:space-between;align-items:flex-start;gap:24px}
+.script .kick{font-weight:700;font-size:.82rem;letter-spacing:.22em;margin-bottom:.55rem}
+.script .stitle{font-weight:800;font-size:2.35rem;line-height:1.02;letter-spacing:-.01em}
+.script .ssub{font-weight:600;font-size:.92rem;margin-top:.55rem}
+.script .hr{text-align:right;white-space:nowrap}
+.script .wc{font-weight:900;font-size:3.3rem;line-height:.9}
+.script .wcm{font-weight:700;font-size:.7rem;letter-spacing:.16em;margin-top:.35rem}
+.script .cues{margin-top:3.2%;flex:1;display:flex;flex-direction:column}
+.script .cue{display:grid;grid-template-columns:150px 1fr;gap:2%;padding:1.55% 0;border-top:1px solid var(--rule)}
+.script .cue:first-child{border-top:1px solid var(--rule)}
+.script .cuek .ct{font-weight:800;font-size:1rem;letter-spacing:.02em}
+.script .cuek .cl{font-weight:700;font-size:.62rem;letter-spacing:.14em;opacity:.7;margin-top:.25rem}
+.script .cb{font-weight:500;font-size:1.02rem;line-height:1.4}
+.script .foot{display:flex;justify-content:space-between;font-weight:700;font-size:.62rem;letter-spacing:.13em;padding-top:2.2%}
+/* COVER (new 6/7) */
+.slide.cover{display:flex;align-items:flex-end}
+.cover .coverbar{position:absolute;top:0;left:0;right:0;height:8px}
+.cover .coverin{padding:0 5.2% 6%;}
+.cover .ckick{font-weight:700;font-size:.9rem;letter-spacing:.24em;margin-bottom:1rem}
+.cover .ctitle{font-weight:900;font-size:4rem;line-height:.98;letter-spacing:-.02em;max-width:82%}
+.cover .csub{font-weight:500;font-size:1.15rem;margin-top:1.1rem;max-width:70%}
+@media(max-width:820px){
+ .script .stitle{font-size:1.5rem} .script .wc{font-size:2rem} .script .cb{font-size:.8rem}
+ .script .cue{grid-template-columns:96px 1fr} .cover .ctitle{font-size:2.1rem}
+}
+</style></head>
+<body>
+<div class="deck">
+  <section class="slide img"><img src="slides/slide-01.png" alt="slide 1"></section>
+  <section class="slide img"><img src="slides/slide-02.png" alt="slide 2"></section>
+  <section class="slide img"><img src="slides/slide-03.png" alt="slide 3"></section>
+  <section class="slide img"><img src="slides/slide-04.png" alt="slide 4"></section>
+  <section class="slide img"><img src="slides/slide-05.png" alt="slide 5"></section>
+  <section class="slide img"><img src="slides/slide-06.png" alt="slide 6"></section>
+  <section class="slide img"><img src="slides/slide-07.png" alt="slide 7"></section>
+  <section class="slide img"><img src="slides/slide-08.png" alt="slide 8"></section>
+  <section class="slide img"><img src="slides/slide-09.png" alt="slide 9"></section>
+  <section class="slide img"><img src="slides/slide-10.png" alt="slide 10"></section>
+  <section class="slide img"><img src="slides/slide-11.png" alt="slide 11"></section>
+  <section class="slide img"><img src="slides/slide-12.png" alt="slide 12"></section>
+  <section class="slide img"><img src="slides/slide-13.png" alt="slide 13"></section>
+  <section class="slide img"><img src="slides/slide-14.png" alt="slide 14"></section>
+  <section class="slide img"><img src="slides/slide-15.png" alt="slide 15"></section>
+  <section class="slide img"><img src="slides/slide-16.png" alt="slide 16"></section>
+  <section class="slide img"><img src="slides/slide-17.png" alt="slide 17"></section>
+  <section class="slide img"><img src="slides/slide-18.png" alt="slide 18"></section>
+  <section class="slide img"><img src="slides/slide-19.png" alt="slide 19"></section>
+  <section class="slide img"><img src="slides/slide-20.png" alt="slide 20"></section>
+  <section class="slide img"><img src="slides/slide-21.png" alt="slide 21"></section>
+  <section class="slide img"><img src="slides/slide-22.png" alt="slide 22"></section>
+  <section class="slide img"><img src="slides/slide-23.png" alt="slide 23"></section>
+  <section class="slide img"><img src="slides/slide-24.png" alt="slide 24"></section>
+  <section class="slide img"><img src="slides/slide-25.png" alt="slide 25"></section>
+
+  <section class="slide script" style="background:#2E6FF2;color:#FFFFFF">
+    <div class="wrap">
+      <div class="head">
+        <div class="hl">
+          <div class="kick" style="color:rgba(255,255,255,.72)">MASTERCLASS FILM 01 / 05</div>
+          <h2 class="stitle">“I Beat the Billionaires on a Budget”</h2>
+          <div class="ssub" style="color:rgba(255,255,255,.72)">The introduction film. Play this to people who have never heard of Julie.</div>
+        </div>
+        <div class="hr">
+          <div class="wc" style="color:#F2C14E">181</div>
+          <div class="wcm" style="color:rgba(255,255,255,.72)">WORDS · :60 TO CAMERA</div>
+        </div>
+      </div>
+      <div class="cues" style="--rule:rgba(255,255,255,.22)">
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:00</div><div class="cl">OPENING LINE</div></div>
+        <div class="cb">Aging well was never about spending a fortune. It was never a secret sold to the rich. It’s the small things — done every single day. It’s your life. Live it well.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:08</div><div class="cl">WHO SHE IS</div></div>
+        <div class="cb">I’m Julie Gibson Clark. I’m not a doctor, and I’m not a billionaire. I’m a single mom from Phoenix who, for over a year, held second place in the world on the Rejuvenation Olympics leaderboard — ahead of tech founders spending two million dollars a year. I did it on an ordinary budget.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:18</div><div class="cl">THE MESSAGE</div></div>
+        <div class="cb">Here’s what I learned: the biggest returns were never expensive. They come from eating well, moving your body, and sleeping. At Longevity Life Academy we read your real numbers — your own glucose data, your own pace of aging — and then we turn them into habits you’ll actually keep.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:40</div><div class="cl">THE OFFER</div></div>
+        <div class="cb">Over eighteen weeks, in a small live cohort, we build you a personal Longevity Blueprint — your biology, your numbers, your daily practice. Join us, and design the life ahead of you.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:56</div><div class="cl">CLOSING LINE</div></div>
+        <div class="cb">I’m Julie — welcome to Longevity Life Academy.</div>
+      </div>
+      </div>
+      <div class="foot" style="color:rgba(255,255,255,.55)">
+        <div>VO — JULIE GIBSON CLARK · WARM, CALM, UNHURRIED</div>
+        <div>END CARD · “IT’S YOUR LIFE. LIVE IT WELL.”</div>
+      </div>
+    </div>
+  </section>
+  <section class="slide img"><img src="slides/slide-27.png" alt="slide 27"></section>
+
+  <section class="slide script" style="background:#0E8B8B;color:#08201F">
+    <div class="wrap">
+      <div class="head">
+        <div class="hl">
+          <div class="kick" style="color:rgba(8,32,31,.62)">MASTERCLASS FILM 02 / 05</div>
+          <h2 class="stitle">“Like Brushing Your Teeth”</h2>
+          <div class="ssub" style="color:rgba(8,32,31,.62)">The “it’s easy” film. Shows that longevity is simple daily habits, not extreme effort.</div>
+        </div>
+        <div class="hr">
+          <div class="wc" style="color:#08201F">176</div>
+          <div class="wcm" style="color:rgba(8,32,31,.62)">WORDS · :60 TO CAMERA</div>
+        </div>
+      </div>
+      <div class="cues" style="--rule:rgba(8,32,31,.22)">
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#08201F">0:00</div><div class="cl">OPENING LINE</div></div>
+        <div class="cb">A longer, healthier life isn’t one big decision you make once. It’s a hundred small ones — made so automatic you stop thinking about them. It’s your life. Live it well.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#08201F">0:08</div><div class="cl">WHO SHE IS</div></div>
+        <div class="cb">I’m Julie Gibson Clark. People call this biohacking. I call it routine. For over a year I held the number-two spot in the world on a public longevity leaderboard — beating founders with unlimited budgets — and I promise you, it wasn’t willpower. It was two ordinary things done every single day.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#08201F">0:18</div><div class="cl">THE MESSAGE</div></div>
+        <div class="cb">The truth nobody sells you is this: the science only works when it becomes as ordinary as brushing your teeth. At Longevity Life Academy we hand you the real protocols — nutrition, sleep, movement, stress, supplements and wearables — but more importantly, we make them stick, so they run on their own.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#08201F">0:40</div><div class="cl">THE OFFER</div></div>
+        <div class="cb">Eighteen weeks. Six pillars. A live cohort of people just like you, and your own continuous glucose monitor so you can see what actually moves the needle. Join us, and design the life ahead of you.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#08201F">0:56</div><div class="cl">CLOSING LINE</div></div>
+        <div class="cb">I’m Julie — welcome to Longevity Life Academy.</div>
+      </div>
+      </div>
+      <div class="foot" style="color:rgba(8,32,31,.5)">
+        <div>VO — JULIE GIBSON CLARK · WARM, CALM, UNHURRIED</div>
+        <div>END CARD · “IT’S YOUR LIFE. LIVE IT WELL.”</div>
+      </div>
+    </div>
+  </section>
+  <section class="slide img"><img src="slides/slide-29.png" alt="slide 29"></section>
+
+  <section class="slide script" style="background:#C81E78;color:#FFFFFF">
+    <div class="wrap">
+      <div class="head">
+        <div class="hl">
+          <div class="kick" style="color:rgba(255,255,255,.72)">MASTERCLASS FILM 03 / 05</div>
+          <h2 class="stitle">“My Why Is My Son”</h2>
+          <div class="ssub" style="color:rgba(255,255,255,.72)">The emotional film. The human reason behind it all — for audiences who already know her.</div>
+        </div>
+        <div class="hr">
+          <div class="wc" style="color:#F2C14E">172</div>
+          <div class="wcm" style="color:rgba(255,255,255,.72)">WORDS · :60 TO CAMERA</div>
+        </div>
+      </div>
+      <div class="cues" style="--rule:rgba(255,255,255,.22)">
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:00</div><div class="cl">OPENING LINE</div></div>
+        <div class="cb">I never wanted to live forever. I wanted to be here — strong, clear, and present — for the people I love. That’s the whole point. It’s your life. Live it well.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:08</div><div class="cl">WHO SHE IS</div></div>
+        <div class="cb">I’m Julie Gibson Clark. My why is my son. Everything I track, everything I measure, I do for one reason: to have the energy to watch him grow up, and to still be myself when I do. I ranked second in the world at this — ahead of men spending two million a year — but that number was never the goal.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:18</div><div class="cl">THE MESSAGE</div></div>
+        <div class="cb">Longevity isn’t about adding empty years to the end of your life. It’s about protecting the years that matter. At Longevity Life Academy we track the pace of your aging with real data — but more importantly, we give those years back to the people you love.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:40</div><div class="cl">THE OFFER</div></div>
+        <div class="cb">In our eighteen-week cohort you’ll build a Longevity Blueprint that fits your real life, not someone else’s. Join us, and design the life ahead of you.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:56</div><div class="cl">CLOSING LINE</div></div>
+        <div class="cb">I’m Julie — welcome to Longevity Life Academy.</div>
+      </div>
+      </div>
+      <div class="foot" style="color:rgba(255,255,255,.55)">
+        <div>VO — JULIE GIBSON CLARK · WARM, CALM, UNHURRIED</div>
+        <div>END CARD · “IT’S YOUR LIFE. LIVE IT WELL.”</div>
+      </div>
+    </div>
+  </section>
+  <section class="slide img"><img src="slides/slide-31.png" alt="slide 31"></section>
+
+  <section class="slide script" style="background:#F5A623;color:#12294A">
+    <div class="wrap">
+      <div class="head">
+        <div class="hl">
+          <div class="kick" style="color:rgba(18,41,74,.62)">MASTERCLASS FILM 04 / 05</div>
+          <h2 class="stitle">“Beyond the Noise”</h2>
+          <div class="ssub" style="color:rgba(18,41,74,.62)">The credibility film. For skeptics who are tired of supplements, gurus and hype.</div>
+        </div>
+        <div class="hr">
+          <div class="wc" style="color:#12294A">178</div>
+          <div class="wcm" style="color:rgba(18,41,74,.62)">WORDS · :60 TO CAMERA</div>
+        </div>
+      </div>
+      <div class="cues" style="--rule:rgba(18,41,74,.22)">
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#12294A">0:00</div><div class="cl">OPENING LINE</div></div>
+        <div class="cb">Longevity isn’t a trend to chase. It isn’t a supplement to buy or a guru to follow. It’s a practice — grounded, measured, and yours. It’s your life. Live it well.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#12294A">0:08</div><div class="cl">WHO SHE IS</div></div>
+        <div class="cb">I’m Julie Gibson Clark. The industry is loud, and most of it is noise. I cut through it the boring way — with data. For over a year I held second place in the world, ahead of men spending two million a year, and I got there without a single miracle pill. The biggest bang for your buck was never expensive — it was the basics, done consistently.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#12294A">0:18</div><div class="cl">THE MESSAGE</div></div>
+        <div class="cb">So we don’t sell you hope. At Longevity Life Academy we teach you to read your own body — your glucose, your sleep, your recovery — so you stop guessing and start knowing. We cut through the hype, but more importantly, we hand you the skill to judge every claim for yourself.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#12294A">0:40</div><div class="cl">THE OFFER</div></div>
+        <div class="cb">Eighteen weeks, six evidence-based pillars, and a room of people who are done with shortcuts. Join us, and design the life ahead of you.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#12294A">0:56</div><div class="cl">CLOSING LINE</div></div>
+        <div class="cb">I’m Julie — welcome to Longevity Life Academy.</div>
+      </div>
+      </div>
+      <div class="foot" style="color:rgba(18,41,74,.5)">
+        <div>VO — JULIE GIBSON CLARK · WARM, CALM, UNHURRIED</div>
+        <div>END CARD · “IT’S YOUR LIFE. LIVE IT WELL.”</div>
+      </div>
+    </div>
+  </section>
+  <section class="slide img"><img src="slides/slide-33.png" alt="slide 33"></section>
+
+  <section class="slide script" style="background:#189B54;color:#FFFFFF">
+    <div class="wrap">
+      <div class="head">
+        <div class="hl">
+          <div class="kick" style="color:rgba(255,255,255,.72)">MASTERCLASS FILM 05 / 05</div>
+          <h2 class="stitle">“Your Numbers, Your Blueprint”</h2>
+          <div class="ssub" style="color:rgba(255,255,255,.72)">The “what you get” film. Spells out the program: data, cohort, and a personal plan.</div>
+        </div>
+        <div class="hr">
+          <div class="wc" style="color:#F2C14E">169</div>
+          <div class="wcm" style="color:rgba(255,255,255,.72)">WORDS · :60 TO CAMERA</div>
+        </div>
+      </div>
+      <div class="cues" style="--rule:rgba(255,255,255,.22)">
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:00</div><div class="cl">OPENING LINE</div></div>
+        <div class="cb">You can’t change what you can’t see. Real longevity begins the day you finally read your own body — in numbers, not hope. It’s your life. Live it well.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:08</div><div class="cl">WHO SHE IS</div></div>
+        <div class="cb">I’m Julie Gibson Clark. I learned this the hard way — every mistake I made showed up in my data before I ever felt it. That data is what held me at second in the world for over a year, and it’s exactly what I’ll teach you to read.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:18</div><div class="cl">THE MESSAGE</div></div>
+        <div class="cb">At Longevity Life Academy we don’t hand you a generic plan. Over eighteen weeks and four phases, a free continuous glucose monitor and your own results turn into six pillars of practice — and one thing that’s entirely yours: a personal Longevity Blueprint. Your biology. Your numbers. Your daily practice.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:40</div><div class="cl">THE OFFER</div></div>
+        <div class="cb">Small live cohorts, real mentorship, and a written plan you’ll actually follow long after the program ends. Join us, and design the life ahead of you.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:56</div><div class="cl">CLOSING LINE</div></div>
+        <div class="cb">I’m Julie — welcome to Longevity Life Academy.</div>
+      </div>
+      </div>
+      <div class="foot" style="color:rgba(255,255,255,.55)">
+        <div>VO — JULIE GIBSON CLARK · WARM, CALM, UNHURRIED</div>
+        <div>END CARD · “IT’S YOUR LIFE. LIVE IT WELL.”</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide cover" style="background:#12294A">
+    <div class="coverbar" style="background:#F2C14E"></div>
+    <div class="coverin">
+      <div class="ckick" style="color:#F2C14E">MASTERCLASS FILM 06 / 07 · HEAD-TO-HEAD</div>
+      <h1 class="ctitle" style="color:#FFFFFF">“The Two-Million-Dollar Answer”</h1>
+      <div class="csub" style="color:rgba(255,255,255,.72)">The head-to-head film. Julie vs. the $2M-a-year man — and why two ordinary habits won.</div>
+    </div>
+  </section>
+
+  <section class="slide script" style="background:#12294A;color:#FFFFFF">
+    <div class="wrap">
+      <div class="head">
+        <div class="hl">
+          <div class="kick" style="color:rgba(255,255,255,.72)">MASTERCLASS FILM 06 / 07</div>
+          <h2 class="stitle">“The Two-Million-Dollar Answer”</h2>
+          <div class="ssub" style="color:rgba(255,255,255,.72)">The head-to-head film. Julie vs. the $2M-a-year man — and why two ordinary habits won.</div>
+        </div>
+        <div class="hr">
+          <div class="wc" style="color:#F2C14E">186</div>
+          <div class="wcm" style="color:rgba(255,255,255,.72)">WORDS · :60 TO CAMERA</div>
+        </div>
+      </div>
+      <div class="cues" style="--rule:rgba(255,255,255,.22)">
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:00</div><div class="cl">OPENING LINE</div></div>
+        <div class="cb">There’s a man who spends two million dollars a year trying not to get older. For over a year, on the same leaderboard, I finished ahead of him. It’s your life. Live it well.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:08</div><div class="cl">WHO SHE IS</div></div>
+        <div class="cb">I’m Julie Gibson Clark — a single mom from Phoenix. No lab, no team, no fortune. Just a body I measured and two things I refused to skip. And for more than a year, that was enough to hold second place in the world, above people outspending me a thousand to one.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:18</div><div class="cl">THE MESSAGE</div></div>
+        <div class="cb">So what were the two factors? Consistency — the same fundamentals every single day. And reading your own body — letting your real numbers, not a guru, tell you what to change. My pace of aging came back at 0.665 on DunedinPACE: aging about thirty-four percent slower. On an ordinary budget, against two million dollars a year.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:40</div><div class="cl">THE OFFER</div></div>
+        <div class="cb">That’s the whole method, and it’s learnable. At Longevity Life Academy — eighteen weeks, six pillars, eighteen live sessions — we build you the same two habits, backed by your own data. Join us, and design the life ahead of you.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:56</div><div class="cl">CLOSING LINE</div></div>
+        <div class="cb">I’m Julie — welcome to Longevity Life Academy.</div>
+      </div>
+      </div>
+      <div class="foot" style="color:rgba(255,255,255,.55)">
+        <div>VO — JULIE GIBSON CLARK · WARM, CALM, UNHURRIED</div>
+        <div>END CARD · “IT’S YOUR LIFE. LIVE IT WELL.”</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide cover" style="background:#7A2E8E">
+    <div class="coverbar" style="background:#F2C14E"></div>
+    <div class="coverin">
+      <div class="ckick" style="color:#F2C14E">MASTERCLASS FILM 07 / 07 · THE HUMILITY FLIP</div>
+      <h1 class="ctitle" style="color:#FFFFFF">“Second Place, First Truth”</h1>
+      <div class="csub" style="color:rgba(255,255,255,.72)">The humility flip. Why coming second is exactly why you can trust the method.</div>
+    </div>
+  </section>
+
+  <section class="slide script" style="background:#7A2E8E;color:#FFFFFF">
+    <div class="wrap">
+      <div class="head">
+        <div class="hl">
+          <div class="kick" style="color:rgba(255,255,255,.72)">MASTERCLASS FILM 07 / 07</div>
+          <h2 class="stitle">“Second Place, First Truth”</h2>
+          <div class="ssub" style="color:rgba(255,255,255,.72)">The humility flip. Why coming second is exactly why you can trust the method.</div>
+        </div>
+        <div class="hr">
+          <div class="wc" style="color:#F2C14E">174</div>
+          <div class="wcm" style="color:rgba(255,255,255,.72)">WORDS · :60 TO CAMERA</div>
+        </div>
+      </div>
+      <div class="cues" style="--rule:rgba(255,255,255,.22)">
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:00</div><div class="cl">OPENING LINE</div></div>
+        <div class="cb">I came second in the world — and honestly, I’m glad it wasn’t first. Because first can be bought. Second, the way I did it, can be copied. It’s your life. Live it well.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:08</div><div class="cl">WHO SHE IS</div></div>
+        <div class="cb">I’m Julie Gibson Clark. For over a year I held the number-two spot on the Rejuvenation Olympics — ahead of founders spending two million dollars a year — and I got there on an ordinary budget, with nothing you couldn’t do too.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:18</div><div class="cl">THE MESSAGE</div></div>
+        <div class="cb">That’s the truth the price tags hide: it came down to two factors. Consistency, and visibility — doing the basics every day, and actually seeing your own numbers. My results held for over a year, aging about thirty-four percent slower than the calendar. Not because I spent the most — because I never guessed.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:40</div><div class="cl">THE OFFER</div></div>
+        <div class="cb">At Longevity Life Academy we hand you that exact path — eighteen weeks, six pillars, your own data turned into habits. You don’t need to come first. You need to start. Join us, and design the life ahead of you.</div>
+      </div>
+      <div class="cue">
+        <div class="cuek"><div class="ct" style="color:#F2C14E">0:56</div><div class="cl">CLOSING LINE</div></div>
+        <div class="cb">I’m Julie — welcome to Longevity Life Academy.</div>
+      </div>
+      </div>
+      <div class="foot" style="color:rgba(255,255,255,.55)">
+        <div>VO — JULIE GIBSON CLARK · WARM, CALM, UNHURRIED</div>
+        <div>END CARD · “IT’S YOUR LIFE. LIVE IT WELL.”</div>
+      </div>
+    </div>
+  </section>
+  <section class="slide img"><img src="slides/slide-35.png" alt="slide 35"></section>
+  <section class="slide img"><img src="slides/slide-36.png" alt="slide 36"></section>
+  <section class="slide img"><img src="slides/slide-37.png" alt="slide 37"></section>
+  <section class="slide img"><img src="slides/slide-38.png" alt="slide 38"></section>
+  <section class="slide img"><img src="slides/slide-39.png" alt="slide 39"></section>
+  <section class="slide img"><img src="slides/slide-40.png" alt="slide 40"></section>
+  <section class="slide img"><img src="slides/slide-41.png" alt="slide 41"></section>
+  <section class="slide img"><img src="slides/slide-42.png" alt="slide 42"></section>
+  <section class="slide img"><img src="slides/slide-43.png" alt="slide 43"></section>
+  <section class="slide img"><img src="slides/slide-44.png" alt="slide 44"></section>
+  <section class="slide img"><img src="slides/slide-45.png" alt="slide 45"></section>
+  <section class="slide img"><img src="slides/slide-46.png" alt="slide 46"></section>
+  <section class="slide img"><img src="slides/slide-47.png" alt="slide 47"></section>
+  <section class="slide img"><img src="slides/slide-48.png" alt="slide 48"></section>
+  <section class="slide img"><img src="slides/slide-49.png" alt="slide 49"></section>
+  <section class="slide img"><img src="slides/slide-50.png" alt="slide 50"></section>
+  <section class="slide img"><img src="slides/slide-51.png" alt="slide 51"></section>
+</div>
+</body></html>
